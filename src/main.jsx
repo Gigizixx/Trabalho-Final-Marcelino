@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
-import Destaque from './Destaque/EmDestaque';
+import Destaque from './Destaque/Destaque';
 import Video from './Video/Video';
 
 const rootElement = document.getElementById('root');
