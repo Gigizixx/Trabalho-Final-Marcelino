@@ -46,4 +46,20 @@ export default function Video() {
         <input type="text" placeholder="Video" value={Video} onChange={(e) => setVideo(e.target.value)} />
 
         <p>Link do vídeo:</p>
-        <input type="text" placeholder="linkdovideo" value={linkdovideo} onChange={(e) => setlinkdovideo(e.target.value)} />
+        <input type="text" placeholder="linkdovidek" value={linkdovideo} onChange={(e) => setLink do video(e.target.value)} />
+        <p>Cantor:</p>
+        <input type="text" placeholder="Cantor" value={cantor} onChange={(e) => setCantor(e.target.value)} />
+
+        <p>Descrição:</p>
+        <input type="text" placeholder="Descricao" value={descricao} onChange={(e) => setDescricao(e.target.value)} />
+
+        <p>Musicas:</p>
+        <input type="text" placeholder="Musicas" value={musicas} onChange={(e) => setMusicas(e.target.value)} />
+
+        <br />
+
+        <button className="btn btn-outline-dark">ADD</button>
+      </form>
+    </div>
+  );
+}
