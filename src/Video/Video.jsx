@@ -32,4 +32,18 @@ export default function Video() {
     setId(id + 1);
     setVideo("");
     setlinkdovideo("");
-    
+    setcantor("");
+    setDescricao("");
+    setmusicas("");
+    navigate("/");
+  };
+
+  return (
+    <div>
+      <Header />
+      <form onSubmit={salvar}>
+        <p>Video:</p>
+        <input type="text" placeholder="Video" value={Video} onChange={(e) => setVideo(e.target.value)} />
+
+        <p>Link do vídeo:</p>
+        <input type="text" placeholder="linkdovideo" value={linkdovideo} onChange={(e) => setlinkdovideo(e.target.value)} />
