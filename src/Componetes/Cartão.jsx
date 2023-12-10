@@ -12,8 +12,8 @@ const Card = ({ lista }) => {
           <Link to={`./Detalhe/${video.id}`}>
             <iframe
               title={video.Video}
-              src={`adicionar link/embed/${video.url.slice(17)}`}
-              frameBorder="0"
+              src={`adicionar link do vídeo/embed/${video.url.slice(17)}`}
+              
             ></iframe>
             <p>{video.Video}</p>
           </Link>
