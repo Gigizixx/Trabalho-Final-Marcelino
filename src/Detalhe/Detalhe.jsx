@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Header from "../Componentes/Header";
+import Header from "../Componentes/Cabeçalho";
 
 export default function Detalhe() {
   const { id } = useParams();
