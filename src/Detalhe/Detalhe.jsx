@@ -21,7 +21,7 @@ export default function Detalhe() {
           
           ></iframe>
           <p>{video.Video}</p>
-          <p>{video.famoso}</p>
+          <p>{video.cantor}</p>
           <p>{video.descricao}</p>
          
         </div>
