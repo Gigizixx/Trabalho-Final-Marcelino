@@ -60,7 +60,7 @@ export default function Video() {
                 </label>
 
                 <label>
-                    descrição:
+                    Descrição:
                     <input type="text" placeholder="descricao" value={descricao} onChange={(e) => setdescricao(e.target.value)} />
                 </label>
 
