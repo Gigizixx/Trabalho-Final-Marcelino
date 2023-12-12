@@ -17,7 +17,7 @@ export default function Detalhe() {
           <Header />
           <iframe
             title={video.Video}
-            src={`link do YouTube embed/${video.url.slice(17)}`}
+            src={`https://youtu.be/5fGrfSxTRYw?si=0XneGXIPNfWTukQL/embed/${video.url.slice(17)}`}
           
           ></iframe>
           <p>{video.Video}</p>
