@@ -12,7 +12,7 @@ const Card = ({ lista }) => {
           <Link to={`./Detalhe/${video.id}`}>
             <iframe
               title={video.Video}
-              src={`adicionar link do vídeo/embed/${video.url.slice(17)}`}
+              src={'https://youtu.be/5fGrfSxTRYw?si=0XneGXIPNfWTukQL'{video.url.slice(17)}`}
               
             ></iframe>
             <p>{video.Video}</p>
